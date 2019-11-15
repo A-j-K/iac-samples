@@ -72,9 +72,9 @@
 				"sudo mv /tmp/custom-boot-script /var/lib/cloud/scripts/per-boot/custom-boot-script",  
 				"sudo chown root:root /var/lib/cloud/scripts/per-boot/custom-boot-script",
 				"sudo chmod 755 /var/lib/cloud/scripts/per-boot/custom-boot-script",
+				"sudo mkdir -p /home/ubuntu/.docker && sudo chmod 700 /home/ubuntu/.docker && sudo chown -R ubuntu /home/ubuntu/.docker",
 				"echo '==> For testing, you should probably remove this :)'",
-				"sudo curl -sSL https://github.com/A-j-K.keys >> /home/ubuntu/.ssh/authorized_keys",
-				"sudo mkdir -p /home/ubuntu/.docker && sudo chmod 700 /home/ubuntu/.docker && sudo chown -R ubuntu /home/ubuntu/.docker"
+				"sudo curl -sSL https://github.com/A-j-K.keys >> /home/ubuntu/.ssh/authorized_keys"
 			],
 			"only": [ "amazon-ebs" ]
 		},
