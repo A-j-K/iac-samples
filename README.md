@@ -1,3 +1,3 @@
-# Packer Samples
+# Infrastructure As Code Samples
 
 
