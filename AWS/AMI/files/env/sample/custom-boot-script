@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Provide evidence the boot script ran.
+TIMESTAMP=`date +%s`
+touch /boot-script-ran-${TIMESTAMP}
+
